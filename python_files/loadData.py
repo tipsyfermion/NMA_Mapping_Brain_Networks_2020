@@ -1,3 +1,8 @@
+#############################################################
+# Author(s): Debaditya Bhattacharya                         #
+# Contact  : debbh922 [at] gmail [dot] com                  #
+#############################################################
+
 def loadDat(data_path,sessions):
     '''
     This function will load the Steinmetz data.
@@ -38,7 +43,7 @@ def loadDat(data_path,sessions):
     trials_intervals = {}
     
     #Channels - (Locations in the brain)
-    channel_brainLocations = {x:[] for x in range(no_of_sessions)} 
+    channel_brainLocations = {x:[] for x in sessions} 
     
     #Clusters - Specific neruons / group of neurons
     clusters_phy_annotation = {}

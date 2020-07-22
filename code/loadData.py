@@ -188,7 +188,7 @@ def get_cluster_spikes(path):
         clusters_spikes.append(cluster_spikes)
         
     #Return the variables.
-    return cluster_spikes
+    return clusters_spikes
 
 def get_trial_info(path):
     '''

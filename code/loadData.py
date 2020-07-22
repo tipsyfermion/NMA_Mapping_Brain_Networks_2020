@@ -105,7 +105,7 @@ def get_session_info(root, path):
     '''
     
     #Get substring
-    name_date = path.replace(data_root+'\\','')
+    name_date = path.replace(root+'\\','')
     
     #Get date
     date = name_date[:-11]

@@ -2,6 +2,12 @@
 # Author(s) : Debaditya, Anwesha, Anna                      #
 #############################################################
 
+#Fetch dependencies
+import numpy as np
+import glob
+import csv
+
+
 def loadDat(data_path,sessions):
     '''
     WARNING!:This is an outdated function
@@ -35,9 +41,7 @@ def loadDat(data_path,sessions):
     '''
     
     #Fetch dependencies
-    import numpy as np
-    import glob
-    import csv
+    
 
     print('Importing the data for sessions',sessions)
     #Get all paths

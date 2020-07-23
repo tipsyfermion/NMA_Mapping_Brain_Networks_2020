@@ -21,6 +21,7 @@ The dataset used for this purpose was the [Steinmetz et al. 2019](https://figsha
 * [Theoretical Neuroscience](https://mitpress.mit.edu/books/theoretical-neuroscience)
 
 **Packages:**
+* [Anaconda](https://www.anaconda.com/products/individual)
 * [Elephant - Electrophysiology Analysis Toolkit](https://elephant.readthedocs.io/en/latest/)
 * [Neo](https://neo.readthedocs.io/en/stable/index.html)
 

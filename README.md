@@ -13,11 +13,19 @@ How do the different brain regions interact with one another in terms of functio
 
 The dataset used for this purpose was the [Steinmetz et al. 2019](https://figshare.com/articles/steinmetz/9598406) data set that was recorded using Neuropixel probes.
 
-
-
 ## Resources
 
-#TODO
+**Papers:**
+* [Distributed coding of choice, action and engagement across the mouse brain](https://www.nature.com/articles/s41586-019-1787-x)
+* [Methods to identify spike patterns/activation from spike train](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5908877/)
+
+**Packages:**
+* [Elephant - Electrophysiology Analysis Toolkit](https://elephant.readthedocs.io/en/latest/)
+* [Neo](https://neo.readthedocs.io/en/stable/index.html)
+
+**Code References:**
+* [steinmetz-et-al-2019 data description](https://github.com/nsteinme/steinmetz-et-al-2019/wiki/data-files)
+* [steinmetz2019_NMA by Dr. Marius Pachitariu](https://github.com/MouseLand/steinmetz2019_NMA)
 
 ## People
 

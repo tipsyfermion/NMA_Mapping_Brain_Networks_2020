@@ -15,9 +15,10 @@ The dataset used for this purpose was the [Steinmetz et al. 2019](https://figsha
 
 ## Resources
 
-**Papers:**
+**Literature:**
 * [Distributed coding of choice, action and engagement across the mouse brain](https://www.nature.com/articles/s41586-019-1787-x)
 * [Methods to identify spike patterns/activation from spike train](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5908877/)
+* [Theoretical Neuroscience](https://mitpress.mit.edu/books/theoretical-neuroscience)
 
 **Packages:**
 * [Elephant - Electrophysiology Analysis Toolkit](https://elephant.readthedocs.io/en/latest/)

@@ -6,7 +6,7 @@
 import numpy as np
 import glob
 import csv
-
+from itertools import compress
 
 def loadDat(data_path,sessions):
     '''
@@ -160,10 +160,11 @@ def get_cluster_info(path):
         cluster_locations.append(brain_region)
         del brain_region
             
+    cluster_locations = list(compress(cluster_locations, good_clusters))
     #Return the variables.
     return good_clusters, cluster_locations
  
-def get_cluster_spikes(path):
+def get_cluster_spikes(path, good_clusters):
     '''
     This function retuns the spikes sorted according to clusters.
     
@@ -187,6 +188,7 @@ def get_cluster_spikes(path):
         cluster_spikes = spikes[np.where(cluster_ids == cluster_id)]
         clusters_spikes.append(cluster_spikes)
         
+    cluster_spikes = list(compress(cluster_spikes, good_clusters))
     #Return the variables.
     return clusters_spikes
 

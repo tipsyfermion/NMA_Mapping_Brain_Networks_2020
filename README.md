@@ -7,7 +7,10 @@ This project is a part of the Neuromatch Acedemy's summer school in July 2020.
 During a decision making task, a number of brain regions are involved in the processing of sensory information to decision making to motor action. These regions act together in particular networks. We’re aware of the anatomical organisation of these regions but the dynamical interactions among them, is not well established.
 
 
-How do the different brain regions interact with one another in terms of functional connectivity? Can we attribute behaviour to large-scale brain wide circuits? Are different networks involved in different tasks?
+How do the different brain regions interact with one another in terms of functional connectivity? Can we attribute behaviour to large-scale brain wide circuits? Are different networks involved in different tasks? These are some broad questions that we set out to answer.
+
+
+We are currently at the stage of exploring the data by producing various plots. We have successfully plotted out the binned data. We are visually able to identify the regions. For more details look at [this notebook](/code/prelimTest.ipynb).
 
 ## Dataset
 
@@ -31,6 +34,8 @@ The dataset used for this purpose was the [Steinmetz et al. 2019](https://figsha
 
 ## People
 
+* [John Butler(Mentor)](https://github.com/john-s-butler-dit)
+* [Arun Garimella](https://github.com/kilimanjaro2)
 * [Anna Marinou](https://github.com/AnnaMarinou)
 * [Anwesha Das](https://github.com/anwesha-das)
 * [Debaditya Bhattacharya](https://github.com/Debu922)

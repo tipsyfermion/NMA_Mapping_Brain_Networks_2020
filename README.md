@@ -1,20 +1,32 @@
 # Mapping Brain Networks - NMA 2020 Project
 
-This project is a part of the Neuromatch Acedemy's summer school in July 2020.
+This three week experimental project is a part of the Neuromatch Acedemy's summer school in July 2020.
 
-## Description
+## Description and objectives
 
 During a decision making task, a number of brain regions are involved in the processing of sensory information to decision making to motor action. These regions act together in particular networks. We’re aware of the anatomical organisation of these regions but the dynamical interactions among them, is not well established.
 
 
 How do the different brain regions interact with one another in terms of functional connectivity? Can we attribute behaviour to large-scale brain wide circuits? Are different networks involved in different tasks? These are some broad questions that we set out to answer.
 
+## Status - *ongoing*
 
 We are currently at the stage of exploring the data by producing various plots. We have successfully plotted out the binned data. We are visually able to identify the regions. For more details look at [this notebook](/code/prelimTest.ipynb).
+
+We are also preparing a report for the work that we have done.
+
+## Learnings
+
+* Python file control
+* Matplotlib functions, various plots
+* Organizing data
+* 
+
 
 ## Dataset
 
 The dataset used for this purpose was the [Steinmetz et al. 2019](https://figshare.com/articles/steinmetz/9598406) data set that was recorded using Neuropixel probes.
+
 
 ## Resources
 
@@ -31,6 +43,7 @@ The dataset used for this purpose was the [Steinmetz et al. 2019](https://figsha
 **Code References:**
 * [steinmetz-et-al-2019 data description](https://github.com/nsteinme/steinmetz-et-al-2019/wiki/data-files)
 * [steinmetz2019_NMA by Dr. Marius Pachitariu](https://github.com/MouseLand/steinmetz2019_NMA)
+* [Neuromatch Academy](https://github.com/NeuromatchAcademy/course-content)
 
 ## People
 
